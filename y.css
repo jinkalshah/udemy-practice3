@@ -1,0 +1,54 @@
+.webpage{
+	font-size:16px;
+	font-family:calibri;
+}
+header{
+	background-color: orange;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+article{
+	background-color: powderblue;
+}
+body{
+	display: block;
+	margin: 0;
+}
+h1,h2{
+	font-family: calibri;
+}
+label{
+	width:95px;
+	display: inline-block;
+}
+.button:hover{
+	background-color: green;
+	color: #ffffff;
+}
+img{
+	float: right;
+}
+form.webpage{
+	margin-left: 40%;
+	box-shadow: 0 0 15px #333;
+	padding: 15px;
+	display: inline-block;
+}
+ul.webpage {
+    position: absolute;
+    top: 122px;
+    left: 350px;
+}
+h2.movies {
+    margin-top: 60px;
+}
+ol.webpage li{
+	display: inline-block;
+	margin-right: 100px;
+}
+li:nth-child(even){
+	font-style: italic;
+}
+li:nth-child(odd){
+	font-weight: bold;
+}
